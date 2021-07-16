@@ -1,0 +1,66 @@
+:root {
+  --pirimary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+}
+
+.body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+ul {
+  list-style: none;
+}
+
+/* Навигация */
+.link {
+  color: #212121;
+}
+
+.contacts {
+  color: #757575;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+/* секкции */
+.section-title {
+  color: #212121;
+}
+
+.text {
+  color: #757575;
+}
+
+/* Кнопки */
+
+.button-hero {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.button-navigation {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.button-navigation:hover,
+.button-navigation:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
