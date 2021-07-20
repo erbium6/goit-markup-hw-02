@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --contacts-footer-color: #ffffff 60 %;
+  --adress-color: #fff;
 }
 
 .body {
@@ -165,7 +166,8 @@ ul {
   line-height: 1.6;
   letter-spacing: 0.03em;
   cursor: pointer;
-  color: var(--title-text-color) background-color #f5f4fa;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 }
 
 .button-navigation:hover,
@@ -194,12 +196,17 @@ ul {
 
 /* footer */
 .contacts-footer {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--contacts-footer-color);
 }
 
 .adress {
   font-style: normal;
+  color: var(--adress-color);
 }
 
 .footer {
