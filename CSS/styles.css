@@ -201,11 +201,15 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: var(--contacts-footer-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .adress {
   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--adress-color);
 }
 
